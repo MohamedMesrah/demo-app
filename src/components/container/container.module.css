@@ -1,0 +1,8 @@
+.container {
+    background-color: var(--nav-bar-bg);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}

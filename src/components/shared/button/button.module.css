@@ -1,0 +1,29 @@
+.base {
+    padding: var(--input-padding);
+    color: #fff !important;
+    background-color: var(--primary-button-color);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--primary-button-color);
+    cursor: pointer;
+}
+
+.base:disabled {
+    cursor: not-allowed;
+    background-color: rgba(255,255,255,.12);
+    border-color: rgba(255,255,255,.12);
+    color: rgba(255,255,255,.3) !important;
+}
+
+.success {
+    background-color: var(--success-button-color);
+    border: 1px solid var(--success-button-color);
+}
+
+.transparent {
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+}
+
+.transparent:hover {
+    background-color: rgba(0, 0, 0, .1);
+}

@@ -1,0 +1,44 @@
+.wallets {
+    width: 100%;
+    color: var(--text-color);
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    padding: 20px;
+}
+.head-wallet  {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.head-wallet > *{
+    margin-right: 10px;
+}
+
+.wallet-table-head {
+    color: #494958 ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    border-top: 0.1px solid #494958;
+    padding: 10px;
+}
+.wallet-table-head-currency {
+    width: 50%;
+}
+.wallet-table-head-balance {
+    width: 15%;
+}
+.wallet-table-head-pending {
+    width: 15%;
+}
+.wallet-table-head-controls {
+    width: 30%;
+}

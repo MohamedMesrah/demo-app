@@ -1,0 +1,51 @@
+.slider  {
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    color: white;
+    position: relative;
+}
+
+.slider img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+.content > * {
+    margin: 5px;
+}
+.content > img {
+    margin: 0;
+}
+
+.dot1, .dot2, .dot3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 25%;
+    right: 10%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+.dot1 {
+    top: 25%;
+}
+.dot2 {
+    top: 50%;
+}
+.dot3 {
+    top: 75%;
+}
+
+.filled {
+    background-color: #fff;
+}

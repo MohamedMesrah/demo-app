@@ -1,0 +1,11 @@
+.base {
+    padding: var(--input-padding);
+    background: none;
+    border: 1px solid var(--text-color);
+    margin: 10px auto;
+    border-radius: var(--border-radius);
+}
+
+.base input[type=text] {
+    width: 100%;
+}

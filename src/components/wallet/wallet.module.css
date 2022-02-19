@@ -1,0 +1,35 @@
+.wallet {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--text-color);
+    border-top: 0.1px solid #494958;
+    padding: 8px;
+    cursor: pointer;
+}
+.wallet:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.wallet-currency {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.wallet-currency > * {
+    margin-right: 10px;
+}
+.wallet-balance {
+    width: 15%;
+}
+.wallet-pending {
+    width: 15%;
+}
+.wallet-controls {
+    display: flex;
+}
+.wallet-controls button {
+    margin: 0 20px;
+    padding: 8px 16px ;
+}
