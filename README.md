@@ -1,4 +1,4 @@
-# Prime XPT Demo App
+# Demo App
 
 ## Install App Dependancies
 `npm install`
